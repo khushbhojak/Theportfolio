@@ -164,20 +164,28 @@ const workExperiences = {
     {
       role: "Full Stack Developer Intern",
       company: "Samskriti Bharati",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/samskritibharati.PNG"),
       date: "January 2022 – April 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Missisauga",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                "•	Counselled with the executive body to manage the company website, domain name registration and site hosting.",
+"   •	Implemented agile methodologies and structured a project management plan to achieve company target reducing the time of project completion by 40 %. ",
+"    •	Led developers and engineering intern teams using agile to develop insights, working with internal stakeholders and customers to incorporate their feedback into applications achieving 5 - 10 % improvement with each update.",
+"    •	Designed UI / UX for the end - user using Adobe XD ensuring cross - platform optimizations for mobile phones and reduced the project complexity by 50 ."
       ]
     },
     {
       role: "Java Program Tutor",
       company: "Sheridan College",
-      companylogo: require("./assets/images/quoraLogo.png"),
+        companylogo: require("./assets/images/sheridanlogo.png"),
       date: "October 2021 – January 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        desc: "Brampton",
+        descBullets: [
+               " Tutored Java to Java Recovery Pilot Program students of a class with 100 + Students under the leadership of Prof.Zaki Asmat.",
+" Collaborated with the full - time Applied Computing Tutor to engage with class of students using effective learning techniques.",
+" Assisted the full - time tutors by collecting data on daily meetings and conducted data analysis with 100 % accuracy in details.",
+" Used tools like SharePoint and TutorOcean to effectively manage the students and their data."
+        ]
     }
   ]
 };
@@ -193,29 +201,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "These are the projects that i did in my academic year or for fun",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Blackjack.png"),
+      projectName: "Blackjack game",
+      projectDesc: "Java based programmed gamed with proper gaming functionality",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+              url: "https://github.com/ShivangShingala/CardGame-Project/tree/finalCodeHomies/src/ca/sheridancollege/project"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/easypharm.png"),
+      projectName: "EasyPharm App",
+      projectDesc: "This project is a prototype of a pharmaceutical app.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+              url: "https://www.figma.com/file/N9NQIqyNfES7ysM8YrXUNa/Easypharm?node-id=0%3A1"
         }
       ]
     }
