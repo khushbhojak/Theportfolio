@@ -23,10 +23,10 @@ const greeting = {
   username: "Khush Bhojak",
   title: "Hi all, I'm Khush",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building programs with Java,C/C++, C#, HTML JavaScript and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -50,9 +50,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡Something"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡"
     )
   ],
 
@@ -78,19 +78,19 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "C",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fab fa-c"
     },
     {
       skillName: "C++",
-      fontAwesomeClassname: "fab fa-swift"
+      fontAwesomeClassname: "fab fa-cplusplus"
     },
     {
       skillName: "C#",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fab fa-csharp"
     },
     {
       skillName: "sql-database",
@@ -98,19 +98,19 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Spring Boot",
-      fontAwesomeClassname: "fab fa-aws"
-    },
+      fontAwesomeClassname: "fab fa-spring"
+    
     {
       skillName: "Shell Scripting",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "fas fa-linux"
     },
     {
       skillName: "J2EE",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "fab fa-javaEE"
     },
     {
       skillName: "Git",
-      fontAwesomeClassname: "fab fa-docker"
+      fontAwesomeClassname: "fab fa-git"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,10 +126,9 @@ const educationInfo = {
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Diploma in Software Engineering",
       duration: "January 2021 - August 2022",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+       
       ]
     }
   ]
@@ -289,7 +288,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -313,7 +312,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -331,8 +330,8 @@ const talkSection = {
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
-  ],
-  display: true // Set false to hide this section, defaults to true
+    ],
+    display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -345,15 +344,15 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "647-879-9696",
+  email_address: "Khushbhojak@gmail.com"
 };
 
 // Twitter Section
@@ -363,7 +362,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
